@@ -1,11 +1,29 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import classes from "./Header.css";
 
-const header = () => {
+const Header = () => {
   return (
     <div>
-      <h1>Thsi is Header</h1>
+      <ul>
+        <li>
+          <NavLink to={"/home"} activeClassName={classes.active}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/about"} activeClassName={classes.active}>
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/post"} activeClassName={classes.active}>
+            Post
+          </NavLink>
+        </li>
+      </ul>
     </div>
   );
 };
 
-export default header;
+export default Header;
