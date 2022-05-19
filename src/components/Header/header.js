@@ -17,7 +17,7 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/post"} activeClassName={classes.active}>
+          <NavLink to={"/posts"} activeClassName={classes.active}>
             Post
           </NavLink>
         </li>

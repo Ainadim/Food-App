@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Login from "./components/Login/Login";
+import AllPosts from "./components/AllPosts/AllPosts";
 
 function App() {
   return (
@@ -22,12 +23,13 @@ function App() {
             <Route path="/home/" element={<Home />}>
               <Route path="contact" element={<h2>This is contact</h2>}></Route>
             </Route>
+            <Route path="/posts" element={<AllPosts />} />
+            <Route path="/posts/:postId" element={<Post />} />
+
             <Route path="/about" element={<About />} />
-            {/* <Route path="/post" element={<Post />} /> */}
             <Route path="/login" element={<Login />} />
             <Route path="/*" element={<PrivateRoute />}>
               <Route path="dashboard" element={<Dashboard />} />
-              <Route path="post" element={<Post />} />
             </Route>
           </Routes>
         </div>
