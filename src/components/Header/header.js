@@ -21,6 +21,11 @@ const Header = () => {
             Post
           </NavLink>
         </li>
+        <li>
+          <NavLink to={"/dashboard"} activeClassName={classes.active}>
+            Dashboard
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
