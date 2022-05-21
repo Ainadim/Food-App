@@ -2,3 +2,25 @@
   color: green;
   text-decoration: none;
 }
+.header {
+  /* display: block; */
+  background-color: #f8c0c1;
+}
+.header-logo {
+  text-align: left;
+}
+.header-logo img {
+  width: 200px;
+  height: 200px;
+}
+.nav-item a {
+  margin-right: 20px;
+  color: #e06363;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+.nav-item a:hover {
+  border-bottom: 1px solid black;
+}

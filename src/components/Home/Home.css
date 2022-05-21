@@ -1,0 +1,12 @@
+.new-in-town img {
+  margin-left: calc(50% - 160px);
+}
+.item-list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-decoration: none;
+  list-style: none;
+}
+.item-list ul li {
+  padding-bottom: 50px;
+}
