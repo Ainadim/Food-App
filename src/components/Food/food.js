@@ -1,14 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-const Post = () => {
+const Food = () => {
   const params = useParams();
   return (
     <div>
-      <h1>This is post</h1>
-      <p>Post Id is {params.postId}</p>
+      <h1>Food Description</h1>
+      <p>Food Id is {params.foodId}</p>
     </div>
   );
 };
 
-export default Post;
+export default Food;

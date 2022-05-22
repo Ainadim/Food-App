@@ -37,7 +37,7 @@ const Header = () => {
                   <NavLink to={"/about"} activeClassName={classes.active}>
                     About
                   </NavLink>
-                  <NavLink to={"/posts"} activeClassName={classes.active}>
+                  <NavLink to={"/foods"} activeClassName={classes.active}>
                     Food
                   </NavLink>
                   <NavLink to={"/dashboard"} activeClassName={classes.active}>

@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import NotFound from "./components/Not Found/NotFound";
 import About from "./components/About/About";
-import Post from "./components/Post/post";
+import Food from "./components/Food/food";
 import Header from "./components/Header/Header";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
@@ -23,8 +23,8 @@ function App() {
           <Route path="/home/" element={<Home />}>
             <Route path="contact" element={<h2>This is contact</h2>}></Route>
           </Route>
-          <Route path="/posts" element={<AllPosts />} />
-          <Route path="/posts/:postId" element={<Post />} />
+          <Route path="/foods" element={<AllPosts />} />
+          <Route path="/foods/:foodId" element={<Food />} />
 
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />

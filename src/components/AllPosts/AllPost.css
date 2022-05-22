@@ -1,0 +1,13 @@
+.food-item-list ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  list-style: none;
+}
+.food-item-list ul li {
+}
+.food-item-list ul li a,
+button {
+  color: #fff;
+  text-decoration: none;
+}
