@@ -22,5 +22,5 @@
   display: inline-block;
 }
 .nav-item a:hover {
-  border-bottom: 1px solid black;
+  color: #0b17c4;
 }

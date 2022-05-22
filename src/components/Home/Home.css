@@ -1,5 +1,13 @@
-.new-in-town img {
-  margin-left: calc(50% - 160px);
+.item-list {
+  margin-top: 50px;
+}
+.new-in-town p,
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 30px;
+}
+.new-in-town p {
+  padding: 10px 100px;
 }
 .item-list ul {
   display: grid;

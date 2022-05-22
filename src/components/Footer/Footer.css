@@ -1,6 +1,12 @@
 .footer {
-  background-color: #000;
-  padding: 100px 50px;
+  background-color: #ffffff;
+  padding: 100px 50px 50px 50px;
   margin-top: 20px;
-  color: #fff;
+  color: #441a1a;
+}
+.nav-item a {
+  color: #441a1a;
+  padding-top: 20px;
+  padding: 10px 20px;
+  border: none;
 }
