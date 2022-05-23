@@ -3,6 +3,13 @@ import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import classes from "./Footer.css";
 import { Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookSquare,
+  faTwitter,
+  faYoutube,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,6 +17,20 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-4">
           <h2>Social Media</h2>
+          <div className="social-icons">
+            <a href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faFacebookSquare} />
+            </a>
+            <a href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
+            <a href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
         <div className="col-md-4">
           <h2>Contact us</h2>

@@ -31,6 +31,7 @@ button {
   display: grid;
   align-items: center;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 .food-item-details:hover .details-info {
   left: 0;

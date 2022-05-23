@@ -1,7 +1,7 @@
 .footer {
   background-color: #fff;
-  padding: 100px 50px 50px 50px;
-  margin-top: 20px;
+  padding: 50px 50px 20px 50px;
+  margin-top: 0px;
   color: #441a1a;
 }
 .footer-nav-item a {
@@ -15,4 +15,10 @@
 .footer-nav-item a span:hover {
   color: #0b17c4;
   border-bottom: 1px solid #000;
+}
+.social-icons a {
+  padding: 10px;
+  font-size: 35px;
+  margin: 10px;
+  color: #052838;
 }

@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./AllPost.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const AllPosts = () => {
   return (
-    <div className="food-item-list">
+    <div className="food-item-list p-5">
       <ul className="">
         <li>
           <div className="food-item-details">
@@ -23,7 +25,9 @@ const AllPosts = () => {
           <button className=" item-lists btn btn-success me-2">
             <Link to={"/foods/1"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -42,7 +46,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/2"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -61,7 +67,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/3"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -80,7 +88,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/4"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -99,7 +109,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/5"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -118,7 +130,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/6"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -137,7 +151,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/7"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -156,7 +172,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/8"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -175,7 +193,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/9"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -194,7 +214,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/10"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -213,7 +235,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/11"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
         <li>
           <div className="food-item-details">
@@ -232,7 +256,9 @@ const AllPosts = () => {
           <button className="btn btn-success me-2">
             <Link to={"/foods/12"}>Details</Link>
           </button>
-          <button className="btn btn-success">Add to cart</button>
+          <button className="btn btn-success">
+            <FontAwesomeIcon icon={faCartArrowDown} />
+          </button>
         </li>
       </ul>
     </div>

@@ -7,7 +7,7 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Outlet />
       <div className="all-products-slider">
         <Carousel fade>

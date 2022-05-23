@@ -25,7 +25,6 @@ function App() {
           </Route>
           <Route path="/foods" element={<AllPosts />} />
           <Route path="/foods/:foodId" element={<Food />} />
-
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/*" element={<PrivateRoute />}>
