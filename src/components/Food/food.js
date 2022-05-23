@@ -5,8 +5,11 @@ const Food = () => {
   const params = useParams();
   return (
     <div>
-      <h1>Food Description</h1>
-      <p>Food Id is {params.foodId}</p>
+      <h1>Food Details {params.foodId} </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        laudantium pariatur totam! Impedit, hic harum?
+      </p>
     </div>
   );
 };

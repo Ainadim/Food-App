@@ -4,9 +4,15 @@
   margin-top: 20px;
   color: #441a1a;
 }
-.nav-item a {
+.footer-nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
   color: #441a1a;
-  padding-top: 20px;
-  padding: 10px 20px;
-  border: none;
+  margin: 10px 100px;
+}
+
+.footer-nav-item a span:hover {
+  color: #0b17c4;
+  border-bottom: 1px solid #000;
 }

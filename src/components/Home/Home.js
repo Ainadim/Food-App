@@ -2,6 +2,8 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import "./Home.css";
 import { Carousel } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (

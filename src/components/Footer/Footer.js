@@ -19,21 +19,24 @@ const Footer = () => {
           <p>email2@companyname.com</p>
         </div>
         <div className="col-md-4">
-          <Nav className="nav-item d-grid " style={{ maxHeight: "100px" }}>
+          <Nav
+            className="d-grid footer-nav-item"
+            style={{ maxHeight: "100px" }}
+          >
             <NavLink to={"/home"} activeClassName={classes.active}>
-              Home
+              <span>Home</span>
             </NavLink>
             <NavLink to={"/about"} activeClassName={classes.active}>
-              About
+              <span>About</span>
             </NavLink>
             <NavLink to={"/posts"} activeClassName={classes.active}>
-              Food
+              <span>Food</span>
             </NavLink>
             <NavLink to={"/dashboard"} activeClassName={classes.active}>
-              Dashboard
+              <span>Dashboard</span>
             </NavLink>
             <NavLink to={"/dashboard"} activeClassName={classes.active}>
-              Log in
+              <span>Log in</span>
             </NavLink>
           </Nav>
         </div>

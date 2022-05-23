@@ -20,7 +20,9 @@
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
+  padding: 5px !important;
 }
 .nav-item a:hover {
   color: #0b17c4;
+  border-bottom: 1px solid #000;
 }
