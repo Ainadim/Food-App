@@ -10,73 +10,7 @@ const PostData = (props) => {
     <div>
       <div className="food-item-list">
         <ul>
-          <li>
-            <div className="food-item-details">
-              <img
-                width={"380px"}
-                height={"220px"}
-                src={images}
-                alt="Fod Item"
-              />
-              <h4>{company_name}</h4>
-              <div className="details-info">
-                <h2>${price}</h2>
-                <p>Cheif Name: {ceo_full_name}</p>
-              </div>
-            </div>
-            <button className=" item-lists btn btn-success me-2">
-              <Link to={"/foods/1"}>Details</Link>
-            </button>
-            <button className="btn btn-success">
-              <FontAwesomeIcon icon={faCartArrowDown} />
-            </button>
-          </li>
-
-          <li>
-            <div className="food-item-details">
-              <img
-                width={"380px"}
-                height={"220px"}
-                src={images}
-                alt="Fod Item"
-              />
-              <h4>{company_name}</h4>
-              <div className="details-info">
-                <h2>${price}</h2>
-                <p>Cheif Name: {ceo_full_name}</p>
-              </div>
-            </div>
-            <button className=" item-lists btn btn-success me-2">
-              <Link to={"/foods/1"}>Details</Link>
-            </button>
-            <button className="btn btn-success">
-              <FontAwesomeIcon icon={faCartArrowDown} />
-            </button>
-          </li>
-
-          <li>
-            <div className="food-item-details">
-              <img
-                width={"380px"}
-                height={"220px"}
-                src={images}
-                alt="Fod Item"
-              />
-              <h4>{company_name}</h4>
-              <div className="details-info">
-                <h2>${price}</h2>
-                <p>Cheif Name: {ceo_full_name}</p>
-              </div>
-            </div>
-            <button className=" item-lists btn btn-success me-2">
-              <Link to={"/foods/1"}>Details</Link>
-            </button>
-            <button className="btn btn-success">
-              <FontAwesomeIcon icon={faCartArrowDown} />
-            </button>
-          </li>
-
-          <li>
+          <li className="row-cols-md-3">
             <div className="food-item-details">
               <img
                 width={"380px"}
