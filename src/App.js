@@ -8,9 +8,11 @@ import Header from "./components/Header/Header";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Login from "./components/Login/Login";
-import AllPosts from "./components/AllPosts/AllPosts";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
+import AllPosts from "./components/AllPosts/AllPosts";
+import PostsDetails from "./components/PostsDetails/PostsDetails";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           </Route>
           <Route path="/foods" element={<AllPosts />} />
           <Route path="/foods/:foodId" element={<Food />} />
+          <Route path="/postdetails" element={<PostsDetails />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/*" element={<PrivateRoute />}>
